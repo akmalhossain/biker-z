@@ -30,18 +30,48 @@
     
 </head>
 <body class="font-poppins">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <header class="bg-[#264653]">
+        <div class="hidden lg:block">
+            <nav class="w-9/12 mx-auto flex justify-end gap-24 text-white pt-10">
+                <ul class="flex justify-end items-center gap-9">
+                    <li><a class="font-medium hover:text-[#E76F51]" href="#">Home</a></li>
+                    <li><a class="font-medium hover:text-[#E76F51]" href="#">Shop</a></li>
+                    <li><a class="font-medium hover:text-[#E76F51]" href="#">News</a></li>
+                    <li><a class="font-medium hover:text-[#E76F51]" href="#">Contact</a></li>
+                </ul>
+                <button class="bg-[#E76F51] px-6 py-[10px] rounded-md"><a class="font-medium" href="#">Login</a></button>
+                
+            </nav>
+        </div>
+        <div class="lg:hidden flex justify-end"><img  src="./images/menu.svg" alt="Hamburger menu"></div>
+        <!-- banner  -->
+         <div class="w-9/12 mx-auto lg:flex justify-between items-center pt-16 pb-9 lg:pb-24">
+            <!-- banner content -->
+             <div class="text-white lg:w-5/12">
+                <p class="font-light">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-5xl font-semibold mt-5">Honda CBR 300R</h1>
+                <p class="font-light mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="bg-[#E76F51] py-3 px-12 rounded-md mt-5 font-medium">Purchase</button>
+             </div>
+             
+            <!-- banner image -->
+             <div class="lg:w-1/2 mt-20">
+                <img class="mx-auto" src="./images/banner.png" alt="">
+             </div>
+         </div>
 
+    </header>
+    <main class="w-9/12 mx-auto">
+        <!-- featured bikes -->
+         <h2 class="text-center capitalize font-semibold text-2xl lg:text-5xl text-black mt-20">Featured Bikes in this year</h2>
+         <p class="text-center  text-sm font-semibold text-[#E76F51] mt-4">Best bike collection</p>
+         <div class="w-[58px] bg-[#E76F51] h-[2px] mx-auto mt-2 rounded-sm" ></div>
+        <div class="lg:flex justify-between items-center mt-28 lg:mt-32">
+            <img class="mx-auto" src="./images/feature-bike.png" alt="">
+            <img class="mx-auto mt-28 lg:mt-0" src="./images/feature-bike.png" alt="">
+            <img class="mx-auto mt-28 lg:mt-0" src="./images/feature-bike.png" alt="">
+        </div>
+        
     </main>
     <footer>
 
